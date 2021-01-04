@@ -13,7 +13,7 @@ module.exports = class FakeMap extends Object {
     return this;
   }
 
-  delete() {
+  delete(key) {
     delete this[key];
     return this;
   }
