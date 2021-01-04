@@ -4,6 +4,10 @@ module.exports = class FakeMap extends Object {
     Object.assign(this, object)
   }
 
+  get(key) {
+    return this[key];
+  }
+  
   set(key, value) {
     this[key] = value;
     return this;
