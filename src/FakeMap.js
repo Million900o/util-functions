@@ -1,4 +1,4 @@
-module.exports = class FakeMap extends Object {
+class FakeMap extends Object {
   constructor(object = {}) {
     super();
     Object.assign(this, object)
@@ -30,3 +30,5 @@ module.exports = class FakeMap extends Object {
     return Object.keys(this);
   }
 }
+
+module.exports = FakeMap;
