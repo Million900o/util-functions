@@ -2,7 +2,7 @@
   "name": "util-functions",
   "version": "0.0.1",
   "description": "Some useful functions, I think",
-  "main": "dist/index.js",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
