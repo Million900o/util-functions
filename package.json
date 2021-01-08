@@ -1,0 +1,22 @@
+{
+  "name": "util-functions",
+  "version": "0.0.1",
+  "description": "Some useful functions, I think",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/million900o/util-functions.git"
+  },
+  "author": "MILLION",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/million900o/util-functions/issues"
+  },
+  "homepage": "https://github.com/million900o/util-functions#readme"
+}
